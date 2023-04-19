@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <section
       id="coliseum"
-      className={`h-screen w-full bg-[url(./assets/images/usb-gad.jpeg)] bg-repeat bg-center`}
+      className={`h-screen w-full bg-[url(./assets/images/usb-gad.jpeg)] bg-no-repeat bg-center bg-cover`}
     >
       <div className="flex h-screen w-full items-center justify-center bg-gray-700/80 text-white">
         <div>
