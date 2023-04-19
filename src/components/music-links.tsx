@@ -2,34 +2,39 @@ export default function MusicLinks() {
   const navigation = [
     {
       name: "Spotify",
-      href: "https://www.facebook.com/profile.php?id=100082491862685",
+      href: "https://open.spotify.com/artist/5vkRwmJS3T2WTuGF3Lzyj7?si=hyvLr_w0TK2yrWZEIoHNuw",
       icon: "ri-spotify-fill",
     },
     {
       name: "Apple Music",
-      href: "https://www.facebook.com/profile.php?id=100082491862685",
+      href: "https://music.apple.com/mx/album/all-i-do-single/1670555583",
       icon: "ri-music-2-fill",
     },
     {
       name: "Soundcloud",
-      href: "https://www.facebook.com/profile.php?id=100082491862685",
+      href: "https://open.spotify.com/artist/5vkRwmJS3T2WTuGF3Lzyj7?si=hyvLr_w0TK2yrWZEIoHNuw",
       icon: "ri-soundcloud-fill",
     },
     {
       name: "Youtube",
-      href: "https://www.facebook.com/profile.php?id=100082491862685",
+      href: "https://www.youtube.com/@usb_gad",
       icon: "ri-youtube-fill",
     },
     {
       name: "Amazon Music",
-      href: "https://www.facebook.com/profile.php?id=100082491862685",
+      href: "https://music.amazon.com/albums/B0BV7G8NJF",
       icon: "ri-amazon-fill",
     },
-    // {
-    //   name: "Deezer",
-    //   href: "https://www.facebook.com/profile.php?id=100082491862685",
-    //   icon: "ri-deezer-fill",
-    // },
+    {
+      name: "Deezer",
+      href: "https://www.deezer.com/us/album/405748037",
+      icon: "ri-folder-music-fill",
+    },
+    {
+      name: "Anghami",
+      href: "https://play.anghami.com/album/1036156258",
+      icon: "ri-disc-fill",
+    },
   ];
   return (
     <div className="z-50 fixed top-0 w-full">

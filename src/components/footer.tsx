@@ -2,7 +2,7 @@ export default function Footer() {
   const navigation = [
     {
       name: "Instagram",
-      href: "https://www.facebook.com/profile.php?id=100082491862685",
+      href: "https://www.instagram.com/usb_gad/",
       icon: "ri-instagram-fill",
     },
     {
@@ -12,12 +12,12 @@ export default function Footer() {
     },
     {
       name: "Twitter",
-      href: "https://www.facebook.com/profile.php?id=100082491862685",
+      href: "https://www.twitter.com/usb_gad/",
       icon: "ri-twitter-fill",
     },
     {
       name: "Tiktok",
-      href: "https://www.facebook.com/profile.php?id=100082491862685",
+      href: "https://www.tiktok.com/usb_gad/",
       icon: "ri-tiktok-fill",
     },
     {
@@ -25,12 +25,13 @@ export default function Footer() {
       href: "tg://join?invite=vS-8xPlgi9hkMzdh",
       icon: "ri-telegram-fill",
     },
-    // {
-    //   name: "Email",
-    //   href: "tg://join?invite=vS-8xPlgi9hkMzdh",
-    //   icon: "ri-mail-fill",
-    // },
+    {
+      name: "Email",
+      href: "#",
+      icon: "ri-mail-fill",
+    },
   ];
+
   return (
     <footer className="z-50 fixed bottom-0 w-full">
       <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:flex-row-reverse md:items-center md:justify-between lg:px-8">
